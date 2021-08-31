@@ -1,0 +1,25 @@
+
+.LeftImg{
+  float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+}
+.wrap {
+  margin-top: 100px;
+         width: 1310px;/*фиксируем ширину обертки*/
+         margin: 0 auto;/*центрируем ее*/
+         background: darkgray;
+         height: 120px;/*Задаем высоту обертки*/
+        }
+ 
+.block {
+        float: left; /*Задаем обтекание*/
+        /*Высота строки +  верт. центрирования текста*/
+        font-size: 10px;
+        color: white;
+        width: 320px; /*Фиксируем ширину блока*/
+        margin-right: 10px;
+        text-align: center; /*Центрируем текст по горизонтали*/
+}
+.wrap :last-child {
+        margin-right: 0px;/*Убираем поле последнего div-а*/
+                       }

@@ -1,0 +1,48 @@
+<!Doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>The most expensive horses</title>
+	<link rel="stylesheet" href="css/Horses.css">
+	<link rel="stylesheet" href="css/fact.css">
+	</head>
+<body style="background-image: url(../myproject/img/3982.jpg)">
+		<header>
+		<div class="three"><h1>RUNNING</h1></div>
+		</header>
+		<img id="thing" src="https://acegif.com/wp-content/gifs/gif-horse-107.gif"  width="112" height="81.138" 
+ style="z-index: 99; position: relative; transition: left .65s ease-in, top .65s ease-in;">
+ <script type="text/javascript">
+ 
+document.body.addEventListener("mousemove", getClickPosition, false);
+function getClickPosition (e) { //слушатель события движения мыши
+ var picture = document.querySelector("#thing");
+ var parentPosition = getPosition(e.currentTarget);
+ var xPosition = e.clientX - parentPosition.x - (picture.clientWidth / 2);
+ var yPosition = e.clientY - parentPosition.y - (picture.clientHeight / 2);
+ picture.style.left = xPosition + "px";
+ picture.style.top = yPosition + "px";
+}
+
+function getPosition(element) { //расчёт позиции элемента
+ var xPos = 0;
+ var yPos = 0;
+ while (element) {
+  if (element.tagName == "BODY") {
+   var xScroll = element.scrollLeft || document.documentElement.scrollLeft;
+   var yScroll = element.scrollTop || document.documentElement.scrollTop;
+   xPos += (element.offsetLeft - xScroll + element.clientLeft);
+   yPos += (element.offsetTop - yScroll + element.clientTop);
+  } 
+  else {
+   xPos += (element.offsetLeft - element.scrollLeft + element.clientLeft);
+   yPos += (element.offsetTop - element.scrollTop + element.clientTop);
+  }
+  element = element.offsetParent;
+ }
+ return { x: xPos, y: yPos };
+}
+</script>
+</body>
+</html>

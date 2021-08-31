@@ -1,0 +1,59 @@
+.block{
+	border: 1px ;
+	background: rgba(201, 178, 153, 0.8);
+	max-width: 900px;
+	margin: 40px auto;
+	max-height: 2950px;
+}
+h1{
+	text-align: center;
+}
+p{
+	margin-top: 5px;
+	font-size: 25px;
+	text-align: center;
+}
+.p1{
+	background-color: #8B4513;
+}
+.img1 {
+  position: absolute;
+  top: 200px;
+  left: 20px;
+  height: 100%;
+
+ }
+ .img2 {
+  position: absolute;
+  top: 500px;
+  left: 20px;
+  height: 100%;
+
+ }
+ .img3 {
+  position: absolute;
+  top: 900px;
+  left: 20px;
+  height: 100%;
+
+ }
+ .img4 {
+  position: absolute;
+  top: 200px;
+  right: 20px;
+  height: 100%;
+ }
+ .img5 {
+  position: absolute;
+  top: 500px;
+  right: 20px;
+  height: 100%;
+
+ }
+ .img6 {
+  position: absolute;
+  top: 900px;
+  right: 20px;
+  height: 100%;
+
+ }

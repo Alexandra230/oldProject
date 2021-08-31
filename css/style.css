@@ -1,0 +1,312 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	front-size:100%;
+	line-height: 1;
+	front-size:14px;
+	-ms-text-size-adjust:100%;
+	-moz-text-size-adjust:100%;
+	-webkit-text-size-adjust:100%;
+}
+input,button,textarea{font-family: inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style-type: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+body{
+	padding: 130px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.block{
+	border: 1px solid grey;
+	max-width: 800px;
+	height: 400px;
+	background: #9a9a9a;
+	position: relative;
+	box-shadow: 5px 5px 5px #000;
+}
+.block1{
+	background: #D2B48C;
+	width:400px;
+	height: 400px;
+	left: 0;
+	top: 0;
+	position: absolute;
+	padding: 50px 0px 50px 50px;
+	font-family: Andale Mono, monospace;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 50px;
+	padding: 50px;
+}
+.block1 button{
+	margin: 100px 0px 50px 100px;
+	font-family: Andale Mono, monospace;
+	font-weight: bold;
+	font-size: 15px;
+	display: inline-block;
+	padding: 15px 25px;
+	font-size: 24px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	background-color: #8B4513;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #999;
+}
+.textbutton:hover {background-color: #8B4513}
+
+.textbutton:active {
+	background-color: #8B4513;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+.block2{
+	background: #fff;
+	width:400px;
+	height: 400px;
+	right: 0;
+	top: 0;
+	position: absolute;
+}
+.btn-group{
+	width: 250px;
+	height: 400px;
+position: absolute;
+top:130px;
+right:200px;
+
+}
+.button1{
+	margin: 0 30px;
+	width: 200px;
+background: #fff ;
+display: inline-block;
+	padding: 15px 25px;
+	font-size: 24px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	background-color: #8B4513;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #999
+}
+.button1:active {
+	background-color: #8B4513;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+.button2{
+	margin:20px 30px;
+	width: 200px;
+background: #fff ;
+display: inline-block;
+	padding: 15px 25px ;
+	font-size: 24px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	background-color: #8B4513;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #999
+}
+.button2:active {
+	background-color: #8B4513;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+	}
+.button3{
+	margin: 10px 30px;
+	width: 200px;
+background: #fff ;
+display: inline-block;
+	padding: 15px 25px ;
+	font-size: 24px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	background-color: #8B4513;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #999
+}
+.button3:active {
+	background-color: #8B4513;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+	}
+	
+.button4{
+	margin: 10px 30px;
+	width: 200px;
+background: #fff ;
+display: inline-block;
+	padding: 15px 25px ;
+	font-size: 24px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	background-color: #8B4513;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #999
+}
+.button4:active {
+	background-color: #8B4513;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+	}
+
+
+	input[type=text], input[type=password] {
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 10px 0;
+	display: inline-block;
+	border: none;
+	background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+	input[type=text]:focus, input[type=password]:focus {
+	background-color: #ddd;
+	outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	 cursor: pointer;
+	width: 200px;
+	opacity: 0.9;
+}
+
+button:hover {
+	opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+	padding: 14px 20px;
+	background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+	padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	 left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background: #fff url(../img/3982.jpg) 0 0 no-repeat;
+	padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+	background-color: #fefefe;
+	margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+	border: 1px solid #888;
+	width: 50%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+	border: 1px solid #f1f1f1;
+	margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+.close {
+	position: absolute;
+	right: 35px;
+	top: 15px;
+	font-size: 40px;
+	font-weight: bold;
+	color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+	color: #f44336;
+	cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+	.cancelbtn, .signupbtn {
+	width: 100%;
+	}
+}
+.p1{
+	margin-bottom: 10px;
+	font-size: 10px;
+}
+input:required:valid{
+  border: 1px solid green;
+}
+input:required:invalid{
+   border: 1px solid red;
+
+}
+a{
+    text-decoration: none; 
+    color: #fff;
+   }
